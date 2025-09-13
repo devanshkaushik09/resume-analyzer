@@ -1,11 +1,8 @@
 import {Link, useNavigate, useParams} from "react-router";
 import {useEffect, useState} from "react";
 import {usePuterStore} from "~/lib/puter";
-// @ts-ignore
-import Summary from "../components/";
-// @ts-ignore
+import Summary from "~/components/Summary";
 import ATS from "~/components/ATS";
-// @ts-ignore
 import Details from "~/components/Details";
 
 export const meta = () => ([
