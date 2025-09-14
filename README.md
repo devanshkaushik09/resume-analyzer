@@ -1,87 +1,42 @@
-# Welcome to React Router!
+# 🧑‍💼 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+An **AI-powered web application** that evaluates candidate resumes against job listings.  
+Built with **ReactJS**, **Puter.js**, and AI APIs to provide instant feedback and intelligent suggestions for resume improvement.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Features
+
+- 📂 Upload resumes easily with **Puter.js integration**  
+- 🤖 AI-powered analysis to match resumes with job requirements  
+- 🖥️ User-friendly interface with structured navigation (React Router)  
+- 📊 Instant feedback on skills, keywords, and job relevance  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: ReactJS, React Router  
+- **Backend/Storage**: Puter.js  
+- **AI Integration**: AI APIs (e.g., Claude-Sonnet)  
+- **Styling**: CSS / Material UI  
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Resume Upload | Analysis Result |
+|-----------|---------------|-----------------|
+| <img width="400" alt="Home Page" src="https://github.com/user-attachments/assets/0240e0d9-b8c8-46ed-b9c4-3dc2f581029a" /> | <img width="400" alt="Resume Upload" src="https://github.com/user-attachments/assets/a8ced6a2-1b8b-4aa5-a4fb-51c9169523da" /> | <img width="400" alt="Analysis Result" src="https://github.com/user-attachments/assets/81d03bf1-5d58-4b77-ba72-56347c8552a8" /> |
+
+
+## ⚡ Getting Started
+
+Follow these steps to run the project locally.
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/devanshkaushik09/resume-analyzer.git
+cd ai-resume-analyzer
+npm install
+npm run dev
