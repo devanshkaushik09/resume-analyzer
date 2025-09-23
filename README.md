@@ -1,4 +1,4 @@
-# 🧑‍💼 AI Resume Analyzer
+# 🧑‍💼 AI Resume Analyzer [👉 **Visit App**](https://cvision-resume-analyzer.netlify.app/)
 
 An **AI-powered web application** that evaluates candidate resumes against job listings.  
 Built with **ReactJS**, **Puter.js**, and AI APIs to provide instant feedback and intelligent suggestions for resume improvement.
